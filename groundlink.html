@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="images/icons/logo.png">
+<title>GroundLink</title>
+<style>
+    body {
+        background-color: white !important;
+    }
+</style>
+<!-- Bootstrap core CSS -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="index.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great:|Source+Sans+Pro:400,400i,700,900|Londrina+Shadow|Ribeye+Marrow" rel="stylesheet">
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container">
+  <div class="col-sm-offset-6 col-sm-6">
+    <h1><p style="color:white; font-size: 40px;", >Publications</h1>
+  </div>
+  </div>
+</div>
+
+
+<!-- <div class="container">
+  <div class="publication" id="publication">
+    <div class="section-title row-md-1 text-center"> <h2>GroundLink: A Dataset Unifying Human Body Movement and Ground Reaction Dynamics</h2></div>
+    <br>
+    <div class="publication">
+      <div style="text-align: center;">
+        <div style="display: inline-block; text-align: left;">
+          <div class="row">
+            <br>
+            SIGGRAPH Asia 2023. December 12–15, 2023, Sydney, NSW, Australia
+              <br>
+              <a href="https://cs-people.bu.edu/xjhan/">Xingjian Han</a>, Benjamin Senderling, Stanley To, <a href="https://sites.bu.edu/kumarlab/">Deepak Kumar</a>, <a href="http://cs-people.bu.edu/whiting/">Emily Whiting</a>, <a href="https://research.adobe.com/person/jun-saito/">Jun Saito</a>
+              <br>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+
+<div class="container">
+  <div class="publication" id="publication">
+    <br>
+    <div class="publication">
+      <div style="text-align: center;">
+        <div style="display: inline-block; text-align: left; width: 700px; font-size: 15px">
+          <div class="row">
+            <div class="section-title row-md-1 text-center"> <h2>GroundLink: A Dataset Unifying Human Body Movement and Ground Reaction Dynamics</h2></div>
+            <br>
+
+                <div class="publication">
+      <div style="text-align: center;">
+        <div style="display: inline-block; text-align: left;">
+          <div class="row">
+            <br>
+            SIGGRAPH Asia 2023. December 12–15, 2023, Sydney, NSW, Australia
+              <br>
+              <a href="https://cs-people.bu.edu/xjhan/">Xingjian Han</a>, Benjamin Senderling, Stanley To, <a href="https://sites.bu.edu/kumarlab/">Deepak Kumar</a>, <a href="http://cs-people.bu.edu/whiting/">Emily Whiting</a>, <a href="https://research.adobe.com/person/jun-saito/">Jun Saito</a>
+              <br>
+          </div>
+        </div>   
+      </div>
+    </div>
+
+
+            
+            
+            <div style="display: flex; justify-content: center;">
+                <video width="1200" height="700" autoplay muted loop>
+              <source src="pubs/showMotions.mp4" type="video/mp4">
+            </video>
+            </div>
+            
+            
+
+            
+
+
+            <div class="section-title">Supplemental Video</div>
+            <br>
+            <!-- <center><iframe width="700" height="400" src="https://www.youtube.com/embed/-AxtchabmIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> -->
+            <video width="700" height="400" controls>
+              <source src="pubs/GroundLink_Video.mp4" type="video/mp4">
+            </video>
+
+            <br>
+
+            <div class="section-title">SIGGRAPH Asia Interactive Discussion Session</div>
+            <br>
+            <!-- <center><iframe width="700" height="400" src="https://www.youtube.com/embed/-AxtchabmIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center> -->
+            <video width="700" height="400" controls>
+              <source src="pubs/GroundLink_SA2023_IDS_video_loop_7_qrcode.mp4" type="video/mp4">
+            </video>
+
+            <br>
+
+            <div class="section-title">Abstract</div>
+            <br>
+            <div class="publication-text">
+              <div style="font-size: 15px">
+              The physical plausibility of human motions is vital to various applications in fields including but not limited to graphics, animation, robotics, vision, biomechanics, and sports science. While fully simulating human motions with physics is an extreme challenge, we hypothesize that we can treat this complexity as a black box in a data-driven manner if we focus on the ground contact, and have sufficient observations of physics and human activities in the real world. To prove our hypothesis, we present <em>GroundLink</em>, a unified dataset comprised of captured ground reaction force (GRF) and center of pressure (CoP) synchronized to standard kinematic motion captures. GRF and CoP of <em>GroundLink</em> are not simulated but captured at high temporal resolution using force platforms embedded in the ground for uncompromising measurement accuracy. This dataset contains 368 processed motion trials (~1.59M recorded frames) with 19 different movements including locomotion and weight-shifting actions such as tennis swings to signify the importance of capturing physics paired with kinematics. <em>GroundLinkNet</em>, our benchmark neural network model trained with <em>GroundLink</em>, supports our hypothesis by predicting GRFs and CoPs accurately and plausibly on unseen motions from various sources. The dataset, code, and benchmark models are made public for further research on various downstream tasks leveraging the rich physics information at <a href="https://csr.bu.edu/groundlink/">https://csr.bu.edu/groundlink/</a>. <br><br>
+              </div>
+            </div>
+
+            <div class="section-title">Paper</div>
+            <br>
+            <div class="publication-text">
+
+            <img class="project-icon" src="images/icons/arxiv.png"> <a href="http://arxiv.org/abs/2310.03930">arXiv</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <img class="project-icon" src="images/icons/pdf.png"> <a href="pubs/GroundLink.pdf">Paper (PDF, full resolution)</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img class="project-icon" src="images/icons/pdf.png"> <a href="pubs/GroundLink_Supplement.pdf">Supplemental</a> <br><br>
+            </div>
+
+            <div class="section-title">Source Code</div>
+            <br>
+            <div class="publication-text">
+            <img class="project-icon" src="images/icons/github.png"> <a href="https://github.com/hanxingjian/GroundLink">Github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img class="project-icon" src="images/icons/data.png"> <a href="https://csr.bu.edu/groundlink/">Data</a><br><br>
+            </div>
+
+
+            <div class="section-title">Bibtex</div>
+            <br>
+            <div style="font-size: 14px">
+            <code><font color="black"> 
+              @inproceedings{<br>
+                  han2023groundlink,<br>
+                  title = {GroundLink: A Dataset Unifying Human Body Movement and Ground Reaction Dynamics},<br>
+                  author={Han, Xingjian and Senderling, Benjamin and To, Stanley and Kumar, Deepak and Whiting, Emily and Saito, Jun},<br>
+                  booktitle={ACM SIGGRAPH Asia 2023 Conference Proceedings}, <br>
+                  year = {2023},<br>
+                  pages = {1--10},<br>
+              }</code>
+
+
+              <br>
+              <br>
+            </div>
+
+            <div class="publication-text">
+              <a href="index.html#publication">Back to Home</a><br>
+            </div>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+ 
+  <br>
+ 
+
+<script src="bootstrap/js/jquery-3.1.0.slim.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

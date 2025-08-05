@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="images/icons/logo.png">
+<title>Micropolar</title>
+<!-- Bootstrap core CSS -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="bootstrap/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="index.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great:|Source+Sans+Pro:400,400i,700,900|Londrina+Shadow|Ribeye+Marrow" rel="stylesheet">
+</head>
+<body>
+<div class="jumbotron">
+  <!--div class="container"-->
+  <div class="col-sm-offset-6 col-sm-6">
+    <h1><p style="color:white; font-size: 40px;", >Research Projects</h1>
+  </div>
+  <!--/div-->
+</div>
+
+<div class="container">
+  <div class="publication" id="publication">
+    <br>
+    <div class="publication">
+      <div style="text-align: center;">
+        <div style="display: inline-block; text-align: left; width: 700px;">
+          <div class="row">
+            <div class="section-title row-md-1"> <h2>Micropolar APIC Method for Turbulent Fluid</h2></div>
+            
+            <a href="https://cs-people.bu.edu/xjhan/">Xingjian Han</a>, <a href="https://www.math.ucla.edu/~cffjiang/">Chenfanfu Jiang</a>
+            <br>
+
+            <div class="section-title">Poster</div>
+            <br>
+
+            <img class="project-icon" src="images/icons/pdf.png"> <a href="poster.pdf">Poster (PDF, full resolution)</a>
+            <br>
+            <div class="publication-text">
+              <div class="profile-image thumbnail"> <img class="image-responsive" src="images/projects/poster.png"/> </div><br>
+            </div>
+
+            <div class="section-title">Abstract</div>
+            <br>
+            <div class="publication-text">
+              Our project aims to simulate Turbulent Fluid with Micropolar model based on APIC transfer, creating a more animated and energetic rotational flow. Classical fluid simulations are lack of vorticity details, while micropolar provides a microstructure to contain more rotational information of the particles, thus provides a more thorough transfer to ensure a realistic result. Micropolar fluids are fluids with microstructure. Its model is a generation of the classical Navier-Stokes formulation. In addition to the linear velocity field, micropolar fluids also have a field of microrotation that represents and provides the existing and new vortices respectively. Therefore, compare to the traditional fluid simulation, it considers the rotational motion of the fluid particles, provides more turbulent details and eventually leads to a more realistic results. This idea was applied in A Micropolar Material Model for SPH fluid. However, due to its concept, classical SPH formulations suffer from tensile instabilities and lack of consistency. Therefore, the hybrid Lagrangian-Eulerian simulation, such as APIC, will provide a more authentic result. Thus, we would like to further develop the micropolar model onto APIC fluid simulation to realize a more vivid turbulent fluid simulation.
+            </div>
+
+
+
+            <div class="section-title">APIC Implentation</div>
+            <br>
+            <div class="publication-text">
+              Reference: <br>
+
+            Chenfanfu Jiang, Craig Schroeder, Andrew Selle, Joseph Teran, and Alexey Stomakhin. 2015. The affine particle-in-cell method. ACM Trans. Graph. 34, 4, Article 51 (July 2015), 10 pages. DOI=<a href="https://dl.acm.org/doi/10.1145/2766996">dx.doi.org/10.1145/2766996</a><br>
+
+            Xinxin Zhang, Robert Bridson, and Chen Greif. Restoring the missing vorticity in advection-projection fluid solvers. ACM Trans. Graph. 34, 4 (July 2015).<br>
+
+            <div class="profile-image thumbnail"> <img class="image-responsive" src="images/projects/apic.gif"/> <br><figcaption class="publication-text">Figure: Comparison among Semi-lagrangian, APIC, and FLIP methods in smoke simulation.</figcaption></div><br>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="publication-text">
+              <a href="index.html#project">Back to Home</a><br>
+            </div>
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ 
+  <br>
+ 
+<!-- Bootstrap core JavaScript
+         ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script-->
+<script src="bootstrap/js/jquery-3.1.0.slim.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
