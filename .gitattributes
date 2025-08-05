@@ -1,2 +1,5 @@
+pubs/SA2024_BioDesign_video_v3.mp4 filter=lfs diff=lfs merge=lfs -text
+pubs/SA24Submission/SA24_Submission_SuppVideo_851_v4.mp4 filter=lfs diff=lfs merge=lfs -text
+images/projects/sculpture/costa.gif filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.gif filter=lfs diff=lfs merge=lfs -text
